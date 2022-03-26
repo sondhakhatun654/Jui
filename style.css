@@ -1,12 +1,17 @@
 *{padding:0px;margin:0px;}
-.header{
+body{
+    background-color: lightpink;
+}
+.main{
+    margin: 0px 375px;
     width: 600px;
-    background-color: rgba(245, 196, 208, 0.87);
+}
+.header{
+    background-color: rgba(245, 23, 116, 0.87);
     padding-top: 20px;
     padding-bottom: 20px;
 }
 .menu{
-    width: 600px;
     background-color: rgb(219, 163, 182);
 }
 .menu ul{
@@ -29,16 +34,24 @@
     background-color: rgb(33, 31, 168);
     color: white;
 }
+.scroll_news{
+    background-color: white;
+    padding: 15px 0px;
+}
 
 .maincontent{
-    width: 600px;
     background-color:skyblue;
 }
 .maincontent p{
     padding: 10px;
     text-align: justify;
 }
+.maincontent img{
+    width: 300px;
+    float: left;
+    padding-right: 10px;
+}
 .footer{
-    width: 600px;
     background-color: rgb(250, 151, 184);
+    padding: 10px 0px;
 }
