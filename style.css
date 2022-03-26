@@ -1,22 +1,44 @@
+*{padding:0px;margin:0px;}
 .header{
     width: 600px;
-    height: 100px;
-    background-color: rgba(241, 177, 198, 0.87);
-    padding: 50px 0px;
+    background-color: rgba(245, 196, 208, 0.87);
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .menu{
     width: 600px;
-    height: 150px;
-    background-color: rgb(201, 76, 117);
-    margin: 20px;
+    background-color: rgb(219, 163, 182);
 }
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    display: inline;
+    border-right:  1px solid black;
+}
+.menu ul li:last-child{
+    border-right: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: 1s;
+}
+.menu ul a:hover{
+    background-color: rgb(33, 31, 168);
+    color: white;
+}
+
 .maincontent{
     width: 600px;
-    height: 200px;
-    background-color: rgb(146, 4, 51);
+    background-color:skyblue;
+}
+.maincontent p{
+    padding: 10px;
+    text-align: justify;
 }
 .footer{
     width: 600px;
-    height: 80px;
     background-color: rgb(250, 151, 184);
 }
