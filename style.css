@@ -1,0 +1,22 @@
+.header{
+    width: 600px;
+    height: 100px;
+    background-color: rgba(241, 177, 198, 0.87);
+    padding: 50px 0px;
+}
+.menu{
+    width: 600px;
+    height: 150px;
+    background-color: rgb(201, 76, 117);
+    margin: 20px;
+}
+.maincontent{
+    width: 600px;
+    height: 200px;
+    background-color: rgb(146, 4, 51);
+}
+.footer{
+    width: 600px;
+    height: 80px;
+    background-color: rgb(250, 151, 184);
+}
